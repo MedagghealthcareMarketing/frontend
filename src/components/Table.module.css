@@ -1,0 +1,42 @@
+/* Extra small - 350px and up (targeting small Android devices) */
+@media (min-width: 350px) and (max-width: 575px) {
+    .ColCont {
+      font-size: 10px; /* Smaller font for very small screens */
+    }
+  }
+  
+  /* Small (sm) - 576px to 767px */
+  @media (min-width: 576px) and (max-width: 767px) {
+    .ColCont {
+      font-size: 12px; /* Slightly larger font for small screens */
+    }
+  }
+  
+  /* Medium (md) - 768px to 991px */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .ColCont {
+      font-size: 16px; /* Standard font size for medium screens */
+    }
+  }
+  
+  /* Large (lg) - 992px to 1199px */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .ColCont {
+      font-size: 18px; /* Larger font for large screens */
+    }
+  }
+  
+  /* Extra large (xl) - 1200px to 1399px */
+  @media (min-width: 1200px) and (max-width: 1399px) {
+    .ColCont {
+      font-size: 20px; /* Even larger font for extra large screens */
+    }
+  }
+  
+  /* Extra extra large (xxl) - 1400px and up */
+  @media (min-width: 1400px) {
+    .ColCont {
+      font-size: 20px; /* Maximum font size for the largest screens */
+    }
+  }
+  

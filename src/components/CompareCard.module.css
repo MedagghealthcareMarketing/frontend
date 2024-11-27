@@ -1,0 +1,63 @@
+.ImgFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CardImg {
+  width: 100%;
+}
+
+.Card{
+  height: 100%;
+}
+
+.CardTitle {
+  /* font-size: 22px; */
+  font-family: "ApexNewTrial", sans-serif;
+  font-weight: 600; /* Bold */
+  font-style: normal;
+}
+
+.CardText {
+  font-size: 18px;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .CardTitle {
+        font-size: 16px !important;
+      }
+    
+      .CardText {
+        font-size: 16px;
+      }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .CardRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .CardTitle {
+    font-size: 18px;
+  }
+
+  .CardText {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .CardTitle {
+    font-size: 18px !important;
+    font-weight: 600;
+  }
+
+  .CardText {
+    font-size: 16px !important;
+  }
+}

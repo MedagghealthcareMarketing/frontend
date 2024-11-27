@@ -1,0 +1,10 @@
+.Card{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.CardTitle{
+    font-size: medium;
+    font-weight: 700;
+}

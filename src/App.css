@@ -1,0 +1,134 @@
+
+@font-face {
+  font-family: 'ApexNewTrial';
+  src: url('./assets/fonts/ApexNewTrial-Bold-BF66724ea518ae4.otf') format('opentype');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ApexNewTrial';
+  src: url('./assets/fonts/ApexNewTrial-BoldItalic-BF66724ea4ea840.otf') format('opentype');
+  font-weight: 700; /* Bold */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ApexNewTrial';
+  src: url('./assets/fonts/ApexNewTrial-Book-BF66724ea4e7ac4.otf') format('opentype');
+  font-weight: 400; /* Book (Regular) */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ApexNewTrial';
+  src: url('./assets/fonts/ApexNewTrial-BookItalic-BF66724ea57033a.otf') format('opentype');
+  font-weight: 400; /* Book (Regular) */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ApexNewTrial';
+  src: url('./assets/fonts/ApexNewTrial-Heavy-BF66724ea5241cf.otf') format('opentype');
+  font-weight: 900; /* Heavy */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ApexNewTrial';
+  src: url('./assets/fonts/ApexNewTrial-HeavyItalic-BF66724ea5556f9.otf') format('opentype');
+  font-weight: 900; /* Heavy */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ApexNewTrial';
+  src: url('./assets/fonts/ApexNewTrial-Light-BF66724ea57938a.otf') format('opentype');
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ApexNewTrial';
+  src: url('./assets/fonts/ApexNewTrial-LightItalic-BF66724ea5819d0.otf') format('opentype');
+  font-weight: 300; /* Light */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ApexNewTrial';
+  src: url('./assets/fonts/ApexNewTrial-Medium-BF66724ea5881a1.otf') format('opentype');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ApexNewTrial';
+  src: url('./assets/fonts/ApexNewTrial-MediumItalic-BF66724ea550dd2.otf') format('opentype');
+  font-weight: 500; /* Medium */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ApexNewTrial';
+  src: url('./assets/fonts/ApexNewTrial-Thin-BF66724ea54e50a.otf') format('opentype');
+  font-weight: 100; /* Thin */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ApexNewTrial';
+  src: url('./assets/fonts/ApexNewTrial-ThinItalic-BF66724ea57a89b.otf') format('opentype');
+  font-weight: 100; /* Thin */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ApexNewTrial';
+  src: url('./assets/fonts/ApexNewTrial-Ultra-BF66724ea57e1e4.otf') format('opentype');
+  font-weight: 800; /* Ultra */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ApexNewTrial';
+  src: url('./assets/fonts/ApexNewTrial-UltraItalic-BF66724ea55e6db.otf') format('opentype');
+  font-weight: 800; /* Ultra */
+  font-style: italic;
+}
+
+
+
+
+/* Extra small (default styles) */
+/* No specific media query needed */
+
+/* Extra small - 350px and up (targeting small Android devices) */
+@media (max-width: 350px) {
+  /* Styles for very small screens, like Android mobile devices */
+}
+
+/* Small (sm) - 576px to 767px */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Styles for small screens only */
+}
+
+/* Medium (md) - 768px to 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Styles for medium screens only */
+}
+
+/* Large (lg) - 992px to 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Styles for large screens only */
+}
+
+/* Extra large (xl) - 1200px to 1399px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  /* Styles for extra large screens only */
+}
+
+/* Extra extra large (xxl) - 1400px and up */
+@media (min-width: 1400px) {
+  /* Styles for extra extra large screens and larger */
+}

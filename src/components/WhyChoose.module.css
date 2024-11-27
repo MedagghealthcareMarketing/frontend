@@ -1,0 +1,131 @@
+/* Container for Flexbox alignment */
+.CardRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.CardCol {
+  display: flex;
+  align-items: stretch; /* Ensures all cards are the same height */
+}
+
+.CardFrame {
+  flex: 1; /* Makes each card frame take equal space */
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Make all cards the same height */
+  background: url("../assets/bg/background.webp") no-repeat center/cover;
+  box-shadow: 2.5px 2.5px 10px rgba(0, 0, 0, 0.035),
+    20px 20px 80px rgba(0, 0, 0, 0.07);
+  transition: background-color 0.3s;
+}
+
+.Card:hover{
+  cursor: pointer;
+  background-color: #e9296a;
+}
+
+.Card:hover .CardTitle, .Card:hover .CardText{
+  color: #fff !important;
+}
+
+.CardTitle {
+  font-family: "ApexNewTrial", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.CardText {
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 449px) {
+  .CardImage {
+    width: 5.5rem;
+  }
+  .CardTitle {
+    font-size: 18px !important;
+  }
+  .CardText {
+    font-size: 16px;
+  }
+}
+/* Small screens (up to 576px) */
+@media (min-width:450px ) and (max-width: 576px) {
+  .CardImage {
+    width: 5.5rem;
+  }
+  .CardTitle {
+    font-size: 16px;
+  }
+  .CardText {
+    font-size: 14px;
+  }
+}
+
+/* Medium screens (576px to 991px) */
+@media (min-width: 576px) and (max-width: 991px) {
+  .CardImage {
+    width: 5.5rem;
+  }
+  .CardTitle {
+    font-size: 16px;
+  }
+  .CardText {
+    font-size: 14px;
+  }
+}
+
+/* Large screens (992px and up) */
+@media (min-width: 992px) {
+  .CardImage {
+    width: 5.5rem;
+  }
+  .CardTitle {
+    font-size: 16px;
+  }
+  .CardText {
+    font-size: 14px;
+  }
+}
+
+/* Extra large screens (1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399) {
+  .CardImage {
+    width: 7rem;
+  }
+  .CardTitle {
+    font-size: 20px;
+  }
+  .CardText {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .CardImage {
+    width: 7rem;
+  }
+  .CardTitle {
+    font-size: 20px;
+  }
+  .CardText {
+    font-size: 18px;
+  }
+}
+
+/* Add these styles to the image container */
+.ImgFrame {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Centers the image vertically */
+  height: 100%; /* Ensures the container takes the full height */
+}
+

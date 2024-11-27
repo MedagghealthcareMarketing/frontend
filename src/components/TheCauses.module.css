@@ -1,0 +1,128 @@
+.Row {
+  display: flex;
+  flex-wrap: wrap; /* Allow columns to wrap on smaller screens */
+  align-items: stretch;
+  gap: 20px; /* Add space between columns */
+}
+
+/* Adjust columns for responsiveness */
+.ColLeft, .ColRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px; /* Add padding for better spacing */
+}
+
+/* Video frame styling */
+.VidFrame {
+  border-radius: 12px;
+  position: relative;
+  width: 100%; /* Use full width to be responsive */
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Hide overflow to maintain rounded corners */
+}
+
+.VidThumb {
+  cursor: pointer;
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 768px) {
+  .Row {
+    flex-direction: column; /* Stack columns vertically on small screens */
+  }
+  .VidFrame {
+    width: 100%; /* Make the video frame full width */
+  }
+}
+
+@media (max-width: 480px) {
+  .Row {
+    gap: 10px; /* Reduce gap for smaller screens */
+  }
+  .ColLeft, .ColRight {
+    padding: 5px; /* Reduce padding for smaller screens */
+  }
+}
+
+
+/* Extra small (default styles) */
+/* No specific media query needed */
+
+/* Extra small - 350px and up (targeting small Android devices) */
+@media (min-width: 350px) and (max-width: 575px) {
+  /* Styles for very small screens, like Android mobile devices */
+  .ColLeft, .ColRight {
+    width: 100% !important;
+  }
+  .VidThumb, video {
+    border-radius: 15px;
+    width: 100% !important; /* Make sure the thumbnail and video fill the container */
+    height: 100% !important; /* Maintain the aspect ratio */
+    object-fit: cover; /* Cover the entire frame */
+  }
+}
+
+/* Small (sm) - 576px to 767px */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Styles for small screens only */
+  .ColLeft, .ColRight {
+    width: 100%;
+  }
+  .VidThumb, video {
+    border-radius: 15px;
+    width: 100% !important; /* Make sure the thumbnail and video fill the container */
+    height: 100%; /* Maintain the aspect ratio */
+    object-fit: cover; /* Cover the entire frame */
+  }
+}
+
+/* Medium (md) - 768px to 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Styles for medium screens only */
+
+  .VidThumb, video {
+    border-radius: 15px;
+    width: 90%; /* Make sure the thumbnail and video fill the container */
+    height: 100%; /* Maintain the aspect ratio */
+    object-fit: cover; /* Cover the entire frame */
+  }
+}
+
+/* Large (lg) - 992px to 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Styles for large screens only */
+  .VidThumb, video {
+    border-radius: 15px;
+    width: 80%; /* Make sure the thumbnail and video fill the container */
+    height: 100%; /* Maintain the aspect ratio */
+    object-fit: cover; /* Cover the entire frame */
+  }
+}
+
+/* Extra large (xl) - 1200px to 1399px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  /* Styles for extra large screens only */
+  .VidThumb, video {
+    border-radius: 15px;
+    width: 65%; /* Make sure the thumbnail and video fill the container */
+    height: 100%; /* Maintain the aspect ratio */
+    object-fit: cover; /* Cover the entire frame */
+  }
+}
+
+/* Extra extra large (xxl) - 1400px and up */
+@media (min-width: 1400px) {
+  /* Styles for extra extra large screens and larger */
+
+  .VidThumb, video {
+    border-radius: 15px;
+    width: 55%; /* Make sure the thumbnail and video fill the container */
+    height: 100%; /* Maintain the aspect ratio */
+    object-fit: cover; /* Cover the entire frame */
+  }
+}
+

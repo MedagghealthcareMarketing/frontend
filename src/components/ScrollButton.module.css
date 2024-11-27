@@ -1,0 +1,19 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scrollButton:hover{
+    background-color: #E9296A;
+    color: #fff;
+}
+
+.scrollButton{
+    color: #fff;
+    background-color: #E9296A;
+    font-weight: 700;
+}
+.scrollButton:focus{
+    background-color: #E9296A;
+}

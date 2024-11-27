@@ -1,0 +1,45 @@
+.Accordion{
+  border: 2px solid gray;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow:
+  0px 0px 1.8px rgba(0, 0, 0, 0.04),
+  0px 0px 6px rgba(0, 0, 0, 0.06),
+  0px 0px 27px rgba(0, 0, 0, 0.1)
+;
+}
+
+/* Override Bootstrap's accordion styles */
+.AccordionBtn {
+  background-color: #fff !important; /* Set the background color to white */
+  color: #000 !important; /* Set the text color to black */
+  border: none; /* Remove border if needed */
+  font-weight: 600;
+}
+
+.AccordionBtn:focus{
+  color: #E9296A !important;
+  box-shadow: none;
+}
+
+
+.accordion-button:not(.collapsed) {
+  background-color: white !important; /* Ensure the background stays white when the accordion is open */
+}
+
+.accordion-item {
+  border: none; /* Remove the border from the accordion items */
+  background-color: white !important; /* Set the background color for the item */
+}
+
+.accordion-body {
+  background-color: white; /* Set the background color for the accordion body */
+}
+
+.AccordionHeader{
+  border-radius: 12px;
+  box-shadow:
+  1.3px 1.3px 10px rgba(0, 0, 0, 0.035),
+  10px 10px 80px rgba(0, 0, 0, 0.07)
+;
+}

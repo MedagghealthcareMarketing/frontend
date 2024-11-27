@@ -1,0 +1,15 @@
+.HeroTitle {
+    font-family: 'ApexNewTrial', sans-serif;
+    font-weight: 700; /* Bold */
+  }
+
+  .Article{
+    font-family: 'ApexNewTrial', sans-serif;
+    font-weight: 400; /* Book */
+    font-style: normal;
+  }
+
+  .FormTitle{
+    font-family: 'ApexNewTrial', sans-serif;
+    font-weight: 600; /* Bold */
+  }
